@@ -6,7 +6,7 @@ public class TwoSum {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++){
                 if (nums[i] + nums[j] == target) {
-                    System.out.println("[" + i + "," + j + "]");
+//                    System.out.println("[" + i + "," + j + "]");
                     System.out.println(nums.length);
                     return new int[]{i,j};
                 }
