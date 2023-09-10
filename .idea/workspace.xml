@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9fd8ae-d998-4c67-800d-e33c6ea92b1a" name="Changes" comment="задача twoSum с leetcode">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PalindromeNumber.java" afterDir="false" />
+    <list default="true" id="4e9fd8ae-d998-4c67-800d-e33c6ea92b1a" name="Changes" comment="проверка чисел на палиндром">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BestTimeToBAS.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TwoSum.java" afterDir="false" />
@@ -41,7 +41,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
+  <component name="RunManager" selected="Application.BestTimeToBAS">
+    <configuration name="BestTimeToBAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BestTimeToBAS" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.PalindromeNumber" />
       <module name="leetcode" />
@@ -83,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestTimeToBAS" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.TwoSum" />
@@ -119,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694117258617</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="проверка чисел на палиндром">
+      <created>1694181606390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694181606390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="задача twoSum с leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача twoSum с leetcode" />
+    <MESSAGE value="проверка чисел на палиндром" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка чисел на палиндром" />
   </component>
 </project>
