@@ -2,6 +2,14 @@ package org.example;
 
 
 public class TwoSum {
+    // twoSum решение
+    public static void main(String[] args) {
+        int[] nums = new int[]{3, 2, 4};
+        int target = 7;
+        TwoSum twoSu = new TwoSum();
+        twoSu.twoSum(nums, target);
+    }
+
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++){
@@ -13,14 +21,5 @@ public class TwoSum {
             }
         }
         return null;
-    }
-
-    // twoSum решение
-    public static void main(String[] args) {
-        int[] nums = new int[]{3, 2, 4};
-        int target = 7;
-        TwoSum twoSu = new TwoSum();
-        System.out.println();
-        twoSu.twoSum(nums, target);
     }
 }
