@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e9fd8ae-d998-4c67-800d-e33c6ea92b1a" name="Changes" comment="поиск суммы двух чисел, которая соответствует целевой сумме">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ValidParentheses.java" afterDir="false" />
+    <list default="true" id="4e9fd8ae-d998-4c67-800d-e33c6ea92b1a" name="Changes" comment="проверка на сбалансированные скобки">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ValidParentheses">
+  <component name="RunManager" selected="Application.RomanToInteger">
     <configuration name="BestTimeToBAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BestTimeToBAS" />
       <module name="leetcode" />
@@ -55,6 +55,19 @@
     </configuration>
     <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.PalindromeNumber" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanToInteger" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.BestTimeToBAS" />
         <item itemvalue="Application.PalindromeNumber" />
@@ -152,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694351431580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="проверка на сбалансированные скобки">
+      <created>1694352593438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694352593438</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +192,7 @@
     <MESSAGE value="проверка чисел на палиндром" />
     <MESSAGE value="Проверка профита с продажи" />
     <MESSAGE value="поиск суммы двух чисел, которая соответствует целевой сумме" />
-    <option name="LAST_COMMIT_MESSAGE" value="поиск суммы двух чисел, которая соответствует целевой сумме" />
+    <MESSAGE value="проверка на сбалансированные скобки" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка на сбалансированные скобки" />
   </component>
 </project>
